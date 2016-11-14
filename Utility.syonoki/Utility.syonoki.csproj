@@ -45,6 +45,7 @@
     <Compile Include="DataBase\FileAsDataBaseDefinition.cs" />
     <Compile Include="DataBase\FileAsDataBase\AccessDb.cs" />
     <Compile Include="DataBase\IDataBaseDefinition.cs" />
+    <Compile Include="DataBase\OleDbDataProvider.cs" />
     <Compile Include="ExtensionMethods\DictionaryExtentions.cs" />
     <Compile Include="MSOffice\ExcelExtensions.cs" />
     <Compile Include="MSOffice\MailAttachment.cs" />
