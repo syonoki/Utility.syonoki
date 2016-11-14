@@ -5,7 +5,6 @@ using System.Data.OleDb;
 namespace Utility.syonoki.DataBase {
     public abstract class OleDbDataProvider {
         private OleDbConnection conn_;
-        private IDataBaseDefinition definition_;
         public abstract string connectionString { get; }
 
         public OleDbConnection connection{
